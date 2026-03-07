@@ -59,7 +59,7 @@ app.get("/animes/:id", (req, res) => {
   res.json(findAnime);
 });
 
-// ------ Cadastrando um novo filme --------
+// ------ Cadastrando um novo anime --------
 
 app.post("/animes", (req, res) => {
   const newAnime = {
